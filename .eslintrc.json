@@ -1,10 +1,10 @@
 {
-  "extends": "airbnb-base",
+  "extends": ["airbnb-base", "prettier"],
   "env": {
     "browser": true
   },
   "rules": {
-    "linebreak-style":0,
+    "linebreak-style": 1,
     "no-param-reassign": 0,
     "import/extensions": 0,
     "no-console": 0
